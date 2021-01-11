@@ -7,8 +7,8 @@
 }
 
 main{
-    width: 800px;
-    height: 478px;
+    width: 1440vw;
+    height: 604vw;
     color: black;
     border: none;
 }
@@ -21,21 +21,21 @@ body{
 }
 
 header{
-    width: 1440px;
-    height: 604px;
-    max-height: 50%;
-    max-width: 100%;
-    border: none;
-    padding:0rem 33rem 15rem;
-    background: url(../Images/contato-background.jpg) no-repeat;
+    width: 1440px; /*1440px*/
+    height: 604;  /*604px*/
+    max-width: 1400vw;
+    max-height: 600vw;
+    padding:0rem 30rem 15rem;
+    background: url(../Images/Novo_teste_Header.png) no-repeat;
     background-position: 0;
+    object-fit:inherit;
 }
 
 .Home{
     width: 10.2vh;
     height: 5.2vh;
     font: 200 -2rem/1 'Nunito', sans-seri;
-    margin: 2rem 1rem -3rem;
+    margin: 2rem 1rem -6rem;
     float: 1;
     border-radius: 2rem;
     background-color: #703CDC ;
@@ -45,18 +45,15 @@ header{
 
 .Home:hover{
     background-color: #713cdcea;
-
     padding: 0rem 1rem 0.3rem;
 }
 
 .Contato{
     width: 10.2vh;
     height: 5.2vh;
-   
     font: 200 -2rem/1 'Nunito', sans-seri;
-    margin: 2rem 1rem -3rem;
+    margin: -20rem 10rem -35rem;
     border-radius: 2rem;
-
     background-color: #4196E3 ;
     border: 0;
     cursor: pointer;
@@ -64,7 +61,6 @@ header{
 
 .Contato:hover{
     background-color: #4195e3d8;
-
     padding: 0rem 1rem 0.3rem;
 }
 
@@ -72,7 +68,7 @@ header{
     width: 10.2vh;
     height: 5.2vh;
     font: 200 -2rem/1 'Nunito', sans-seri;
-    margin: 2rem 1rem -3rem;
+    margin: -30rem 20rem -5rem;
     border-radius: 2rem;
     background-color: #5DD3F9;
     border: 0px;
@@ -128,13 +124,14 @@ h3{
 
 
 .Prefacio{
-    width: 1440px;
-    height: 640px;
+    width: 100%; /*1440px*/
+    height: 100%; /*460px*/
     max-width: 1440px;
-    max-height: 640px;
+    max-height: 460px;
     display: flex;
-    padding: 3rem 40rem;
+    padding: 10rem 45rem 40rem;
     background: url(../Images/depoimentos-background-2.png) no-repeat;
+    object-fit:none;
 }
 
 .Projeto{
