@@ -35,8 +35,7 @@ header{
     width: 10.2vh;
     height: 5.2vh;
     font: 200 -2rem/1 'Nunito', sans-seri;
-    margin: 2rem 1rem -6rem;
-    float: 1;
+    margin: 5rem 1rem 0rem;
     border-radius: 2rem;
     background-color: #703CDC ;
     border: 0;
@@ -45,39 +44,39 @@ header{
 
 .Home:hover{
     background-color: #713cdcea;
-    padding: 0rem 1rem 0.3rem;
+    /*padding: 0rem 1rem 0.3rem;*/
 }
 
 .Contato{
     width: 10.2vh;
     height: 5.2vh;
     font: 200 -2rem/1 'Nunito', sans-seri;
-    margin: -20rem 10rem -35rem;
+    margin: -10rem 10rem -30rem;
     border-radius: 2rem;
-    background-color: #4196E3 ;
+    background-color: #4196E3;
     border: 0;
     cursor: pointer;
 }
 
 .Contato:hover{
     background-color: #4195e3d8;
-    padding: 0rem 1rem 0.3rem;
+    /*padding: 0rem 1rem 0.3rem;*/
 }
 
 .Projetos{
     width: 10.2vh;
     height: 5.2vh;
     font: 200 -2rem/1 'Nunito', sans-seri;
-    margin: -30rem 20rem -5rem;
+    margin: -20rem 20rem -50rem;
     border-radius: 2rem;
     background-color: #5DD3F9;
-    border: 0px;
+    border: 0;
     cursor: pointer;
 }
 
 .Projetos:hover{
     background-color: #5dd2f9af;
-    padding: 0rem 1rem 0.3rem;
+    /*padding: 0rem 1rem 0.3rem;*/
 }
 
 img{
@@ -117,7 +116,7 @@ h3{
 .texto-pre{
     display: flex;
     font: 400 2vw 'Nunito', sans-seri;
-    padding:15rem 15rem 15rem;
+    padding:15rem 10rem 15rem;
     align-items: center;
     margin: 0rem 25rem -2rem;
 }
@@ -137,7 +136,7 @@ h3{
 .Projeto{
     display: flex;
     font: 400 2vw 'Nunito', sans-seri;
-    padding:15rem 15rem 15rem;
+    padding:15rem 10rem 15rem;
     align-items: center;
     margin: -30rem 25rem 20rem;
 
@@ -149,7 +148,7 @@ h3{
     border-radius: 2rem;
     background-color: #00969A;
     display: flex;
-    margin: -20rem 30rem -74rem;
+    margin: -20rem 10rem -75rem;
 }
 
 .retangulo2{
@@ -158,7 +157,7 @@ h3{
     border-radius: 2rem;
     background-color: #1F6097;
     display: flex;
-    margin: 60rem 60rem -23rem;
+    margin: 60rem 25rem -22rem;
 }
 
 .retangulo3{
@@ -167,7 +166,7 @@ h3{
     border-radius: 2rem;
     background-color: #007999;
     display: flex;
-    margin: 8rem 45rem -10rem;
+    margin: 8rem 40rem -9rem;
 }
 
 .retangulo4{
@@ -176,7 +175,7 @@ h3{
     border-radius: 2rem;
     background-color:#0D0077;
     display: flex;
-    margin: -14rem 75rem 0rem;
+    margin: -14rem 55rem 0rem;
 }
 
 .Contatos{
@@ -194,7 +193,7 @@ button.Email{
     display: flex;
     background-color: #2b342f73;
     border-radius: 1.5rem;
-    margin:4rem 15rem 4rem;
+    margin: -5rem 10rem 16rem;
     border:none;
     align-items: center;
     justify-content: center;
@@ -223,7 +222,7 @@ button.Insta{
     background-color: #dc3ccca4;
     border-radius: 1.5rem;
     border: none;
-    margin:-8rem 35rem 15rem;
+    margin:-20rem 30rem 10rem;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -251,7 +250,7 @@ button.Linkedin{
     background-color: #3c8fdca4;
     border-radius: 1.5rem;
     border: none;
-    margin:-19rem 55rem 15rem;;
+    margin:-14rem 50rem 20rem;;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -270,4 +269,10 @@ img.imgLink{
 
 .Linkedin:hover{
     background-color: #3c8fdc71;
+}
+
+footer.cabeçario{
+    height: 2rem;
+    width: 2rem;
+    background-color:white;
 }
