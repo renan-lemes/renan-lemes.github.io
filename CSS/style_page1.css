@@ -6,6 +6,15 @@
     max-height: 100vh;
 }
 
+img.Estrela{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    position:absolute;
+    top: 0px;
+    left: 380px;
+}
+
 main{
     width: 1440vw;
     height: 604vw;
@@ -183,7 +192,7 @@ h3{
     height: 35px;
     font: 400 2vw 'Nunito', sans-seri;
     display: flex;
-    margin: 10rem 38rem 15rem;
+    margin: 10rem 35rem 15rem;
 }
 
 
@@ -272,7 +281,9 @@ img.imgLink{
 }
 
 footer.cabeçario{
-    height: 2rem;
-    width: 2rem;
-    background-color:white;
+    height: 10vw;
+    width: 90vw;
+    display: flex;
+    margin: auto;
+    background-color: white;
 }

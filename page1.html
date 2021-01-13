@@ -13,6 +13,7 @@
             <div class="titulo">
                 <div class="container">
                     <header>
+                        <img class="Estrela" src="/Images/Estrela.gif" alt="Estrela" id="Estrela1">
                         <button class="Home">Home</button>
                         <button class="Contato">Contato</button>
                         <button class="Projetos">Projetos</button>
@@ -51,5 +52,20 @@
                     </main> 
                 </div>
             </div>
+            <script src="">
+                let x=0;
+                let y=0;
+
+                let EstrelaEl = document.getElementsByClassName('Estrela');
+
+                setInterval(movimentaEstrela,33);
+
+                function movimentaEstrela(){
+                    x++;
+                    y+=2;
+                    EstrelaEl.style.left = x + 'px';
+                    EstrelaEl.style.top = y + 'px';
+                }
+            </script>
     </body>
 </html>
