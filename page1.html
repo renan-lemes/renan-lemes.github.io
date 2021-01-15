@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style_page1.css">
+    <link rel="stylesheet" href="./CSS/Animation.css">
     <link rel = "icon" href="./Images/sciece.png">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <title>Renan Lemes</title>
@@ -11,12 +12,11 @@
 </head>
     <body>
             <div class="titulo">
-                <div class="container">
+                <div class="animate-apper container">
                     <header>
-                        <img class="Estrela" src="/Images/Estrela.gif" alt="Estrela" id="Estrela1">
-                        <button class="Home">Home</button>
-                        <button class="Contato">Contato</button>
-                        <button class="Projetos">Projetos</button>
+                        <button class=" Home" onclick="window.location.reload()">Home</button>
+                        <button class="Contato" onclick="" >Contato</button>
+                        <button class="Projetos" onclick="" >Projetos</button>
 
                         <img src="./Images/Mi_Violin.jpg" alt="">
                         <h1>Renan Lemes</h1>
@@ -36,15 +36,15 @@
                             <div class="retangulo4"></div>
                         </aside>
                         <h2 class="Contatos">Contatos:</h2>
-                        <button class="Email">
+                        <button class="Email" onclick="">
                             <img class="imgEmail" src="./Images/Icon_Email.png" alt="">
                             E-mail
                         </button>
-                        <button class="Insta">
+                        <button class="Insta" onclick="">
                             <img class="ImgInsta" src="./Images/Icon_instagram.png" alt="">
                             Instagram
                         </button>
-                        <button class="Linkedin">
+                        <button class="Linkedin" onclick="">
                             <img class="imgLink" src="./Images/Icone_linkdin.png" alt="">
                             Linkedin
                         </button>
@@ -52,20 +52,6 @@
                     </main> 
                 </div>
             </div>
-            <script src="">
-                let x=0;
-                let y=0;
-
-                let EstrelaEl = document.getElementsByClassName('Estrela');
-
-                setInterval(movimentaEstrela,33);
-
-                function movimentaEstrela(){
-                    x++;
-                    y+=2;
-                    EstrelaEl.style.left = x + 'px';
-                    EstrelaEl.style.top = y + 'px';
-                }
-            </script>
+            <script src="/scripts/page1.js"></script>
     </body>
 </html>

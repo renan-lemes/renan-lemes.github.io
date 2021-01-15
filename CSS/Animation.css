@@ -1,0 +1,47 @@
+/*Animações*/
+@keyframes apper{ 
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes right{
+    from{ 
+        transform: translateX(-90%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes right_and_left{
+    from{
+        transform: translateX(-90%);
+        transform: translateY(90%);
+    }
+    to{
+        transform: translateX(0%);
+        transform: translateY(0%);
+    }
+}
+
+.animate-apper {
+    animation-name: apper;
+    animation-duration: 2000ms;
+    animation-fill-mode: backwards;
+}
+
+.animate-right-and-left{
+    animation-name: right-and-left; 
+    animation-duration: 300ms;
+    animation-fill-mode: backwards;
+}
+
+.animate-right{
+    animation-name: right ;
+    animation-duration: 300ms;
+    animation-fill-mode: backwards;
+}

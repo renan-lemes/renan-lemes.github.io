@@ -6,15 +6,6 @@
     max-height: 100vh;
 }
 
-img.Estrela{
-    height: 20px;
-    width: 20px;
-    display: flex;
-    position:absolute;
-    top: 0px;
-    left: 380px;
-}
-
 main{
     width: 1440vw;
     height: 604vw;
@@ -44,7 +35,7 @@ header{
     width: 10.2vh;
     height: 5.2vh;
     font: 200 -2rem/1 'Nunito', sans-seri;
-    margin: 5rem 1rem 0rem;
+    margin: 2rem 0rem 0rem;
     border-radius: 2rem;
     background-color: #703CDC ;
     border: 0;
@@ -56,11 +47,17 @@ header{
     /*padding: 0rem 1rem 0.3rem;*/
 }
 
+.Home:active {
+    border: none;
+    opacity: 0.5;
+    animation-duration: 150ms;
+}
+
 .Contato{
     width: 10.2vh;
     height: 5.2vh;
     font: 200 -2rem/1 'Nunito', sans-seri;
-    margin: -10rem 10rem -30rem;
+    margin: -15rem 2rem 0rem;
     border-radius: 2rem;
     background-color: #4196E3;
     border: 0;
@@ -69,14 +66,19 @@ header{
 
 .Contato:hover{
     background-color: #4195e3d8;
-    /*padding: 0rem 1rem 0.3rem;*/
+}
+
+.Contato:active {
+    border: none;
+    opacity: 0.5;
+    animation-duration: 150ms;
 }
 
 .Projetos{
     width: 10.2vh;
     height: 5.2vh;
     font: 200 -2rem/1 'Nunito', sans-seri;
-    margin: -20rem 20rem -50rem;
+    margin: -10rem 0rem 0rem;
     border-radius: 2rem;
     background-color: #5DD3F9;
     border: 0;
@@ -85,7 +87,12 @@ header{
 
 .Projetos:hover{
     background-color: #5dd2f9af;
-    /*padding: 0rem 1rem 0.3rem;*/
+}
+
+.Projetos:active {
+    border: none;
+    opacity: 0.5;
+    animation-duration: 150ms;
 }
 
 img{
@@ -224,6 +231,12 @@ img.imgEmail{
     background-color: #2b342f93;
 }
 
+.Email:active {
+    border: none;
+    opacity: 0.5;
+    animation-duration: 150ms;
+}
+
 button.Insta{
     width: 190px;
     height: 66.83px;
@@ -250,6 +263,12 @@ img.ImgInsta{
 
 .Insta:hover{
     background-color:#dc3ccc86;
+}
+
+.Insta:active {
+    border: none;
+    opacity: 0.5;
+    animation-duration: 150ms;
 }
 
 button.Linkedin{
@@ -280,10 +299,16 @@ img.imgLink{
     background-color: #3c8fdc71;
 }
 
+.Linkedin:active {
+    border: none;
+    opacity: 0.5;
+    animation-duration: 150ms;
+}
+
 footer.cabeçario{
     height: 10vw;
     width: 90vw;
     display: flex;
-    margin: auto;
+    margin: -20rem 2rem 4rem;
     background-color: white;
 }
