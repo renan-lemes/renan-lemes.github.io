@@ -77,7 +77,7 @@
     border-radius: 2rem;
     background-color: #00969A;
     display: flex;
-    margin: -15rem 15rem -74rem;
+    margin: -14rem 15rem 0rem;
 }
 
 .retangulo2{
@@ -86,7 +86,7 @@
     border-radius: 2rem;
     background-color: #1F6097;
     display: flex;
-    margin: 60rem 27rem -22rem;
+    margin: -14.11rem 27rem 0rem;   
 }
 
 .retangulo3{
@@ -95,7 +95,7 @@
     border-radius: 2rem;
     background-color: #007999;
     display: flex;
-    margin: 7rem 39rem -9rem;
+    margin: -14.55rem 39rem 0rem;
 }
 
 .retangulo4{
@@ -104,24 +104,24 @@
     border-radius: 2rem;
     background-color:#0D0077;
     display: flex;
-    margin: -15rem 51rem 0rem;
+    margin: -14.44rem 51rem 0rem;
 }
 
 
-button.Email{
+button.Git{
     width: 190px;
     height: 66.83px;
     display: flex;
     background-color: #2b342f73;
     border-radius: 1.5rem;
-    margin: -5rem 12rem 16rem;
+    margin: -5rem 14rem 16rem;
     border:none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-img.imgEmail{
+img.imgGit{
     width: 60px; 
     height: 50px;
     display: flex;
@@ -132,11 +132,11 @@ img.imgEmail{
     border-style:none;
 }
 
-.Email:hover{
+.Git:hover{
     background-color: #2b342f93;
 }
 
-.Email:active {
+.Git:active {
     border: none;
     opacity: 0.5;
     animation-duration: 150ms;
@@ -183,7 +183,7 @@ button.Linkedin{
     background-color: #3c8fdca4;
     border-radius: 1.5rem;
     border: none;
-    margin:-14rem 50rem 20rem;;
+    margin:-14rem 49rem 20rem;;
     align-items: center;
     justify-content: center;
     flex-direction: column;
