@@ -60,7 +60,6 @@ h3{
     width: 440px;
     height: 40px;
     font: 400 1rem/4 'Nunito', sans-seri;
-    align-items:center;
     margin: 1rem  -1rem;
     display:flex;
 }
@@ -90,10 +89,17 @@ h3{
     font: 400 2vw 'Nunito', sans-seri;
     padding:15rem 10rem 15rem;
     align-items: center;
-    margin: -30rem 25rem 20rem;
+    margin: -30rem 25rem 5rem;
 
 }
 
+a.Container-triangle{
+    width: 1062px;
+    height: 322px;
+    max-height: 100%;
+    max-width: 100%;
+    display: inline-block;
+}
 
 footer.cabeçario{
     height: 10vw;
