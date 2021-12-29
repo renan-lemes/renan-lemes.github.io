@@ -21,8 +21,10 @@ console.log(typeof clima)
 {
     let x = 0;
     console.log(x)
-    // Aqui dentro é um bloco e posso colocar qualquer código//
+
 }
+
+// Visibilidade das variaveis
 
 // var é global e poderá funcionar fora de um escopo de bloco
 // hoisting elevação 
@@ -30,3 +32,13 @@ console.log(typeof clima)
     var y = 0;
 }
 console.log(y);
+
+{
+    let y = 0;
+}
+// let e const não funciona como global ou seja so existe se fizer fora do escopo
+console.log(y);
+
+// var e global ou seja funciona fora e dentro do scopo de block
+// já cont e let não são globais 
+
