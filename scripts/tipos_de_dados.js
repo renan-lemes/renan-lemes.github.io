@@ -62,4 +62,60 @@ console.log({
 
 console.log(['Renan', 'Ovos', 23, '4'])
 
+//Tipos de dados
 
+// Data types 
+//Primitive / Primitive value
+//Stryctural
+//Structural primitive
+
+// Primitivos 
+// String 
+// Number 
+// Boolean 
+// undefined 
+// Symbol 
+// BigInt
+
+// Estruturais 
+// Object 
+// Array 
+// Map 
+// Set 
+// Data 
+// ...
+// Function
+
+
+//------------------------------------------------------------------------------------------------------//
+
+// Variavel 
+// Nomes simbolicos para recer algum valor 
+// var 
+// let semelhante ao var
+// const não pode ser mudada durante a aplicação ou seja ela não muda
+
+var clima = 'Quente'
+clima = 'Frio'
+console.log(clima)
+
+console.log(typeof clima)
+// typeof ve o tipo da variavel
+
+// Scope
+// Determina a visibilidade de alguma variavels
+
+// Block statement
+// Tambem chamado de nlock-scoped 
+{
+    let x = 0;
+    console.log(x)
+    // Aqui dentro é um bloco e posso colocar qualquer código//
+}
+
+// var é global e poderá funcionar fora de um escopo de bloco
+
+{
+    var y = 0;
+}
+console.log(y);
