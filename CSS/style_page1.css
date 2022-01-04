@@ -67,9 +67,9 @@ h3{
 .texto-pre{
     display: flex;
     font: 400 2vw 'Nunito', sans-seri;
-    padding:15rem 10rem 15rem;
+    padding:15rem 15rem 15rem;
     align-items: center;
-    margin: 0rem 25rem -2rem;
+    margin: 0rem 29rem -2rem;
 }
 
 
@@ -87,11 +87,21 @@ h3{
 .Projeto{
     display: flex;
     font: 400 2vw 'Nunito', sans-seri;
-    padding:15rem 10rem 15rem;
+    padding:15rem 15rem 15rem;
     align-items: center;
-    margin: -30rem 25rem 5rem;
-
+    margin: -30rem 29rem 5rem;
 }
+
+
+.Contatos{
+    width: 88px;
+    height: 35px;
+    font: 400 2vw 'Nunito', sans-seri;
+    display: flex;
+    margin: 10rem 44rem 15rem;
+    align-items: center;
+}
+
 
 a.Container-triangle{
     width: 1062px;
