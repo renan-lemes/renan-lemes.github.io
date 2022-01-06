@@ -70,6 +70,35 @@
     background-color: #00969A;
     display: flex;
     margin: -14rem 22rem 0rem;
+    border: 0;
+}
+
+.imgUni{
+    height: 120px;
+    width: 110px;
+    margin: 0.5rem 25px 5rem;
+    Opacity:0.7;
+    
+    border-radius: 50%;
+
+}
+
+.Projeto1{
+    height: 15px;
+    font: 300 3vh 'Nunito', sans-seri;
+    color: #fff;
+    margin: 150px 2px 25rem;
+}
+
+.retangulo1:hover{
+    background-color: #098c91;
+    margin: -14rem 21rem 0rem; /* Vou pensar se fica essa ideia mesmo*/
+}
+
+.retangulo1:active {
+    border: none;
+    opacity: 0.5;
+    animation-duration: 180ms;
 }
 
 .retangulo2{
@@ -79,6 +108,39 @@
     background-color: #1F6097;
     display: flex;
     margin: -14.4rem 35rem 0rem;   
+    border: 0;
+}
+
+.Projeto2{
+    height: 15px;
+    font: 300 3vh 'Nunito', sans-seri;
+    color: #fff;
+    margin: 150px 20px 30rem;
+}
+
+.imgNlw{
+    height: 78px;
+    width: 105px;
+    margin: 2rem 26px 6rem;
+    border-radius: 15%;
+}
+
+.logo-happy{
+    height: 50px;
+    width: 50px;
+    margin: 0rem 80px 4rem;
+    
+}
+
+.retangulo2:hover{
+    background-color: #2571b3;
+    margin: -14.4rem 36rem 0rem; /* Vou pensar se fica essa ideia mesmo*/
+}
+
+.retangulo2:active{
+    border: none;
+    opacity: 0.5;
+    animation-duration: 180ms;
 }
 
 .retangulo3{
@@ -88,6 +150,34 @@
     background-color: #007999;
     display: flex;
     margin: -14.55rem 52rem 0rem;
+    border: 0;
+}
+
+.Projeto3{
+    height: 15px;
+    font: 300 3vh 'Nunito', sans-seri;
+    color: #fff;
+    margin: 115px 15px 10rem;
+}
+
+.imgTensor{
+    height: 100px;
+    width: 110px;
+    margin: 1rem 25px 5rem;
+    Opacity:0.8;
+    
+    border-radius: 50%;
+}
+
+.retangulo3:hover{
+    background-color: #016783;
+    margin: -14.55rem 51rem 0rem;
+}
+
+.retangulo3:active{
+    border: none;
+    opacity: 0.5;
+    animation-duration: 180ms;
 }
 
 .retangulo4{
@@ -97,8 +187,35 @@
     background-color:#0D0077;
     display: flex;
     margin: -14.44rem 65rem 0rem;
+    border:0;
 }
 
+.Projeto4{
+    height: 15px;
+    font: 300 3vh 'Nunito', sans-seri;
+    color: #fff;
+    margin: 130px 25px 10rem;
+}
+
+.imgPython{
+    height: 100px;
+    width: 110px;
+    margin: 1.5rem 25px 5rem;
+   
+    
+    border-radius: 40%;
+}
+
+.retangulo4:hover{
+    background-color:#160596;
+    margin: -14.44rem 66rem 0rem;
+}
+
+.retangulo4:active{
+    border: none;
+    opacity: 0.5;
+    animation-duration: 180ms;
+}
 
 button.Git{
     width: 190px;
