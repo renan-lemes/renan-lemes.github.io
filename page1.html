@@ -19,9 +19,12 @@
         <div class="animate-apper container">
             <header>
                 <button class=" Home" onclick="window.location.reload()">Home</button>
-                <button class="Contato" onclick="">Contato</button>
-                <button class="Projetos" onclick="">Projetos</button>
-
+                <a href="#Contato">
+                    <button class="Contato">Contato</button>
+                </a>
+                <a href="#Projetos">
+                    <button class="Projetos" onclick="">Projetos</button>
+                </a>
                 <img src="./Images/Renan_lemes.jpeg" alt="">
                 <h1>Renan Lemes Leepkaln</h1>
                 <h3 class="texto">Aluno: Matemática Aplicada e Computacional.</h2>
@@ -38,7 +41,7 @@
                 <h3 class="texto-pre">Prefácio</h5>
                     <div class="Prefacio">
                     </div>
-                    <h2 class="Projeto">Projetos:</h2>
+                    <h2 class="Projeto" id="Projetos">Projetos:</h2>
                     <aside>
                         <a href="https://github.com/renan-lemes/Article-Data-Structure">
                             <button class="retangulo1">
@@ -73,7 +76,7 @@
                             </button>
                         </a>
                     </aside>
-                    <h2 class="Contatos">Contatos:</h2>
+                    <h2 class="Contatos" id="Contato">Contatos:</h2>
                     <a class="Container-triangle">
                         <a href="https://github.com/renan-lemes">
                             <button class="Git" onclick="">
