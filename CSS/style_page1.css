@@ -1,107 +1,114 @@
-*{   
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 100vw; /*100vw*/
-    max-height: 100vh; /*100vh*/
+    max-width: 100vw;
+    /*100vw*/
+    max-height: 100vh;
+    /*100vh*/
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-main{
+main {
     /*width: 1440vw;*/
     /*height: 604vw;*/
     color: black;
     border: none;
 }
 
-body{
-    max-width: 1062px;
-    max-height: 1867px;
-    margin:0;
+body {
+    max-width: 66.375rem;
+    max-height: 116.688rem;
+    margin: 0;
     border: none;
     display: flex;
-    background-color:#fff;
+    background-color: #fff;
 }
 
-header{
-    width: 1440px; /*1440px*/
-    height: 604;  /*604px*/
-    max-width: 1400vw;
-    max-height: 600vw;
-    padding:0rem 30rem 15rem;
+header {
+    width: 90rem;
+    /*1440px*/
+    height: 40rem;
+    /*604px*/
+    max-width: 90rem;
+    max-height: 40rem;
+    padding: 0rem 30rem 15rem;
     background: url(../Images/Novo_teste_Header.png) no-repeat;
     background-position: 0;
-    object-fit:inherit;
+    object-fit: inherit;
 }
 
-img{
-    width: 190px;
-    height: 190px;
-    position:absolute;
+img {
+    width: 14em;
+    height: 14rem;
+    position: absolute;
     display: grid;
-    margin: 6rem -13rem ;
+    margin: 6rem -15rem;
     border-radius: 50%;
     border-style: groove;
     border: white;
 }
 
-h1{
+h1 {
     align-items: center;
     display: flex;
-    margin: 6rem -1rem; 
+    margin: 6rem -1rem;
     font: 600 2rem/1 'Nunito', sans-seri;
 }
 
-h2{
+h2 {
     align-items: center;
-    font: 500 2rem/1 'Nunito', sans-seri;;
+    font: 500 2rem/1 'Nunito', sans-seri;
+    ;
     display: flex;
     margin: 2rem 15rem;
 }
 
-h3{
-    width: 440px;
-    height: 40px;
+h3 {
+    width: 27.5rem;
+    height: 2.5rem;
     font: 400 1rem/4 'Nunito', sans-seri;
-    margin: 1rem  -1rem;
-    display:flex;
+    margin: 1rem -1rem;
+    display: flex;
 }
 
-.texto-pre{
+.texto-pre {
     display: flex;
     font: 400 2vw 'Nunito', sans-seri;
-    padding:15rem 15rem 15rem;
+    padding: 15rem 15rem 15rem;
     align-items: center;
     margin: 0rem 29rem 20rem;
 }
 
 
-.Prefacio{
-    width: 100%; /*1440px*/
-    height: 100%; /*460px*/
-    max-width: 1440px;
-    max-height: 460px;
+.Prefacio {
+    width: 100%;
+    /*1440px*/
+    height: 100%;
+    /*460px*/
+    max-width: 90rem;
+    max-height: 28.75rem;
     display: flex;
     padding: 10rem 45rem 40rem;
     background: url(../Images/depoimentos-background-2.png) no-repeat;
-    object-fit:none;
+    object-fit: none;
 }
 
-.Projeto{
+.Projeto {
     display: flex;
     font: 400 2vw 'Nunito', sans-seri;
-    padding:15rem 15rem 15rem;
+    padding: 15rem 15rem 15rem;
     align-items: center;
     margin: -30rem 29rem 5rem;
 }
 
 
-.Contatos{
-    width: 88px;
-    height: 35px;
+.Contatos {
+    width: 5.5rem;
+    height: 2.188rem;
     font: 400 2vw 'Nunito', sans-seri;
     display: flex;
     margin: 10rem 44rem 15rem;
@@ -109,15 +116,15 @@ h3{
 }
 
 
-a.Container-triangle{
-    width: 1062px;
-    height: 322px;
+a.Container-triangle {
+    width: 66.375rem;
+    height: 20.125rem;
     max-height: 100%;
     max-width: 100%;
     display: inline-block;
 }
 
-footer.cabeçario{
+footer.cabeçario {
     height: 10vw;
     width: 90vw;
     display: flex;
