@@ -1,15 +1,15 @@
-.Home{
-    width: 10.2vh;
-    height: 5.2vh;
+.Home {
+    width: 5.75rem;
+    height: 2.6rem;
     font: 200 -2rem/1 'Nunito', sans-seri;
     margin: 2rem 0rem 0rem;
     border-radius: 2rem;
-    background-color: #703CDC ;
+    background-color: #703CDC;
     border: 0;
     cursor: pointer;
 }
 
-.Home:hover{
+.Home:hover {
     background-color: #713cdcea;
     /*padding: 0rem 1rem 0.3rem;*/
 }
@@ -20,9 +20,9 @@
     animation-duration: 150ms;
 }
 
-.Contato{
-    width: 10.2vh;
-    height: 5.2vh;
+.Contato {
+    width: 5.75rem;
+    height: 2.6rem;
     font: 200 -2rem/1 'Nunito', sans-seri;
     margin: -15rem 2rem 0rem;
     border-radius: 2rem;
@@ -31,7 +31,7 @@
     cursor: pointer;
 }
 
-.Contato:hover{
+.Contato:hover {
     background-color: #4195e3d8;
 }
 
@@ -41,9 +41,9 @@
     animation-duration: 150ms;
 }
 
-.Projetos{
-    width: 10.2vh;
-    height: 5.2vh;
+.Projetos {
+    width: 5.75rem;
+    height: 2.6rem;
     font: 200 -2rem/1 'Nunito', sans-seri;
     margin: -10rem 0rem 0rem;
     border-radius: 2rem;
@@ -52,7 +52,7 @@
     cursor: pointer;
 }
 
-.Projetos:hover{
+.Projetos:hover {
     background-color: #5dd2f9af;
 }
 
@@ -63,9 +63,9 @@
 }
 
 
-.retangulo1{
-    height: 230px;
-    width: 158px;
+.retangulo1 {
+    height: 14.375rem;
+    width: 9.875rem;
     border-radius: 2rem;
     background-color: #00969A;
     display: flex;
@@ -73,26 +73,27 @@
     border: 0;
 }
 
-.imgUni{
-    height: 120px;
-    width: 110px;
+.imgUni {
+    height: 7.5rem;
+    width: 6.875rem;
     margin: 0.5rem 25px 5rem;
-    Opacity:0.7;
-    
+    Opacity: 0.7;
+
     border-radius: 50%;
 
 }
 
-.Projeto1{
-    height: 15px;
+.Projeto1 {
+    height: 0.938rem;
     font: 300 3vh 'Nunito', sans-seri;
     color: #fff;
     margin: 150px 2px 25rem;
 }
 
-.retangulo1:hover{
+.retangulo1:hover {
     background-color: #098c91;
-    margin: -14rem 21rem 0rem; /* Vou pensar se fica essa ideia mesmo*/
+    margin: -14rem 21rem 0rem;
+    /* Vou pensar se fica essa ideia mesmo*/
 }
 
 .retangulo1:active {
@@ -101,51 +102,52 @@
     animation-duration: 180ms;
 }
 
-.retangulo2{
-    height: 230px;
-    width: 158px;
+.retangulo2 {
+    height: 14.375rem;
+    width: 9.875rem;
     border-radius: 2rem;
     background-color: #1F6097;
     display: flex;
-    margin: -14.4rem 35rem 0rem;   
+    margin: -14.4rem 35rem 0rem;
     border: 0;
 }
 
-.Projeto2{
-    height: 15px;
+.Projeto2 {
+    height: 0.938rem;
     font: 300 3vh 'Nunito', sans-seri;
     color: #fff;
     margin: 150px 20px 30rem;
 }
 
-.imgNlw{
-    height: 78px;
-    width: 105px;
+.imgNlw {
+    height: 4.875rem;
+    width: 6.563rem;
     margin: 2rem 26px 6rem;
     border-radius: 15%;
 }
 
-.logo-happy{
-    height: 50px;
-    width: 50px;
+.logo-happy {
+    height: 3.125rem;
+    width: 3.125rem;
     margin: 0rem 80px 4rem;
-    
+
 }
 
-.retangulo2:hover{
+.retangulo2:hover {
     background-color: #2571b3;
-    margin: -14.4rem 36rem 0rem; /* Vou pensar se fica essa ideia mesmo*/
+    margin: -14.4rem 36rem 0rem;
+    /* Vou pensar se fica essa ideia mesmo*/
 }
 
-.retangulo2:active{
+.retangulo2:active {
     border: none;
     opacity: 0.5;
     animation-duration: 180ms;
 }
 
-.retangulo3{
-    height: 230px;
-    width: 158px;
+.retangulo3 {
+    height: 14.375rem;
+    width: 9.875rem;
     border-radius: 2rem;
     background-color: #007999;
     display: flex;
@@ -153,95 +155,95 @@
     border: 0;
 }
 
-.Projeto3{
-    height: 15px;
+.Projeto3 {
+    height: 0.938rem;
     font: 300 3vh 'Nunito', sans-seri;
     color: #fff;
     margin: 115px 15px 10rem;
 }
 
-.imgTensor{
-    height: 100px;
-    width: 110px;
+.imgTensor {
+    height: 6.25rem;
+    width: 6.875rem;
     margin: 1rem 25px 5rem;
-    Opacity:0.8;
-    
+    Opacity: 0.8;
+
     border-radius: 50%;
 }
 
-.retangulo3:hover{
+.retangulo3:hover {
     background-color: #016783;
     margin: -14.55rem 51rem 0rem;
 }
 
-.retangulo3:active{
+.retangulo3:active {
     border: none;
     opacity: 0.5;
     animation-duration: 180ms;
 }
 
-.retangulo4{
-    height: 230px;
-    width: 158px;
+.retangulo4 {
+    height: 14.375rem;
+    width: 9.875rem;
     border-radius: 2rem;
-    background-color:#0D0077;
+    background-color: #0D0077;
     display: flex;
     margin: -14.44rem 65rem 0rem;
-    border:0;
+    border: 0;
 }
 
-.Projeto4{
-    height: 15px;
+.Projeto4 {
+    height: 0.938rem;
     font: 300 3vh 'Nunito', sans-seri;
     color: #fff;
     margin: 130px 25px 10rem;
 }
 
-.imgPython{
-    height: 100px;
-    width: 110px;
+.imgPython {
+    height: 6.25rem;
+    width: 6.875rem;
     margin: 1.5rem 25px 5rem;
-   
-    
+
+
     border-radius: 40%;
 }
 
-.retangulo4:hover{
-    background-color:#160596;
+.retangulo4:hover {
+    background-color: #160596;
     margin: -14.44rem 66rem 0rem;
 }
 
-.retangulo4:active{
+.retangulo4:active {
     border: none;
     opacity: 0.5;
     animation-duration: 180ms;
 }
 
-button.Git{
-    width: 190px;
-    height: 66.83px;
+button.Git {
+    width: 11.875rem;
+    height: 4.177rem;
     display: flex;
     background-color: #2b342f73;
     border-radius: 1.5rem;
     margin: -5rem 26rem 16rem;
-    border:none;
+    border: none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-img.imgGit{
-    width: 60px; 
-    height: 50px;
+img.imgGit {
+    width: 3.75rem;
+    height: 3.125rem;
     display: flex;
-    max-width: 60px;
-    max-height: 50px;
-    margin: -0.1rem -3.9rem -6rem; 
+    max-width: 3.75rem;
+    max-height: 3.125rem;
+    margin: -0.1rem -3.9rem -6rem;
     border-radius: 1.1rem;
-    border-style:none;
+    border-style: none;
 }
 
-.Git:hover{
+.Git:hover {
     background-color: #2b342f93;
 }
 
@@ -251,32 +253,32 @@ img.imgGit{
     animation-duration: 150ms;
 }
 
-button.Insta{
-    width: 190px;
-    height: 66.83px;
+button.Insta {
+    width: 11.875rem;
+    height: 4.177rem;
     display: flex;
     background-color: #dc3ccca4;
     border-radius: 1.5rem;
     border: none;
-    margin:-20rem 42rem 10rem;
+    margin: -20rem 42rem 10rem;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-img.ImgInsta{
-    width: 60px;
-    height: 50px;
+img.ImgInsta {
+    width: 3.75rem;
+    height: 3.125rem;
     display: flex;
     max-width: 60px;
     max-height: 50px;
-    margin: -0.1rem -3.9rem -6rem; 
+    margin: -0.1rem -3.9rem -6rem;
     border-radius: 1.1rem;
     border: none;
 }
 
-.Insta:hover{
-    background-color:#dc3ccc86;
+.Insta:hover {
+    background-color: #dc3ccc86;
 }
 
 .Insta:active {
@@ -285,31 +287,32 @@ img.ImgInsta{
     animation-duration: 150ms;
 }
 
-button.Linkedin{
-    width: 190px;
-    height: 66.83px;
+button.Linkedin {
+    width: 11.875rem;
+    height: 4.177rem;
     display: flex;
     background-color: #3c8fdca4;
     border-radius: 1.5rem;
     border: none;
-    margin:-14rem 58rem 20rem;;
+    margin: -14rem 58rem 20rem;
+    ;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-img.imgLink{
-    width: 60px;
-    height: 50px;
+img.imgLink {
+    width: 3.75rem;
+    height: 3.125rem;
     display: flex;
-    max-width: 60px;
-    max-height: 50px;
-    margin: -0.1rem -3.9rem -6rem; 
+    max-width: 3.75rem;
+    max-height: 3.125rem;
+    margin: -0.1rem -3.9rem -6rem;
     border-radius: 1.1rem;
     border: none;
 }
 
-.Linkedin:hover{
+.Linkedin:hover {
     background-color: #3c8fdc71;
 }
 
@@ -318,4 +321,3 @@ img.imgLink{
     opacity: 0.5;
     animation-duration: 150ms;
 }
-
