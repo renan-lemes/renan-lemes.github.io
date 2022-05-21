@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    background-color: #fff;
+    background-color: #1D0C20;
 }
 
 header {
@@ -45,7 +45,7 @@ header {
     border-radius: 0rem;
     padding: 0;
     opacity: 1;
-    margin: -15rem -30rem 0;
+    margin: 3rem -20rem 2rem;
 }
 
 img {
@@ -53,10 +53,21 @@ img {
     height: 14rem;
     position: absolute;
     display: grid;
-    margin: 2rem -16rem;
+    margin: 1rem 1.0001rem -5rem;
     border-radius: 50%;
     border-style: groove;
-    border: white;
+    border: #1D0C20;
+
+}
+
+.img-cicle {
+    background-color: rgba(59, 9, 139, 0.267);
+    width: 16rem;
+    height: 16rem;
+    display: flex;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0rem -20rem -20rem;
 }
 
 h1 {
@@ -64,6 +75,7 @@ h1 {
     display: flex;
     margin: 6rem -1rem;
     font: 600 2rem/1 'Nunito', sans-seri;
+    color: #75ADC9;
 }
 
 h2 {
@@ -72,6 +84,7 @@ h2 {
     ;
     display: flex;
     margin: 2rem 15rem;
+    color: #75ADC9;
 }
 
 h3 {
@@ -80,6 +93,16 @@ h3 {
     font: 400 1rem/4 'Nunito', sans-seri;
     margin: 1rem -1rem;
     display: flex;
+    color: #75ADC9;
+}
+
+h4 {
+    width: 7rem;
+    height: 2.5rem;
+    font: 400 1rem/4 'Nunito', sans-seri;
+    margin: 1rem -1rem;
+    display: flex;
+    color: #75ADC9;
 }
 
 .texto-pre {
@@ -88,6 +111,7 @@ h3 {
     padding: 15rem 15rem 15rem;
     align-items: center;
     margin: 0rem 29rem 20rem;
+    color: #75ADC9;
 }
 
 
@@ -97,12 +121,39 @@ h3 {
     height: 100%;
     /*460px*/
     max-width: 90rem;
-    max-height: 28.75rem;
+    max-height: 26rem;
     display: flex;
-    padding: 10rem 45rem 40rem;
+    padding: 20rem 45rem 40rem;
     background: url(../Images/depoimentos-background-2.png) no-repeat;
     object-fit: none;
+    mix-blend-mode: hard-light;
 }
+
+.hard-container {
+    position: absolute;
+    width: 602px;
+    height: 151px;
+    left: 386px;
+    top: 606px;
+    margin: 20rem 2rem 25rem;
+    align-items: center;
+    background: rgba(182, 229, 250, 0.2);
+    border-radius: 9px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    padding: 1px;
+    /* align-items: center; */
+    align-content: space-between;
+    justify-content: center;
+}
+
 
 .Projeto {
     display: flex;
@@ -136,5 +187,5 @@ footer.cabeçario {
     width: 90vw;
     display: flex;
     margin: -20rem 2rem 4rem;
-    background-color: white;
+    background-color: #1D0C20;
 }
