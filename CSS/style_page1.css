@@ -121,8 +121,8 @@ h4 {
     /*1440px*/
     height: 100%;
     /*460px*/
-    max-width: 90rem;
-    max-height: 26rem;
+    max-width: 100rem;
+    max-height: 30rem;
     display: flex;
     padding: 20rem 45rem 40rem;
     background: url(../Images/depoimentos-background-2.png) no-repeat;
@@ -144,7 +144,7 @@ h4 {
     grid-template-columns: 1fr 1fr 1fr;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    
     gap: 2px;
     align-self: center;
     justify-self: center;
@@ -175,9 +175,16 @@ h4 {
 }
 
 
-a.Container-triangle {
+.Container-triangle {
+    align-items: center;
+    padding: 0rem;
+    align-self: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+
     width: 66.375rem;
     height: 20.125rem;
+
     max-height: 100%;
     max-width: 100%;
     display: inline-block;
