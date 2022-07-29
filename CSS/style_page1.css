@@ -48,12 +48,12 @@ header {
 }
 
 img {
-    width: 14em;
-    height: 14rem;
+    width: 15.5em;
+    height: 14.6rem;
     position: absolute;
     display: grid;
-    margin: 1rem 1.0001rem -5rem;
-    border-radius: 50%;
+    margin: 0rem 0.2rem 3rem;
+    border-radius: 70%;
     border-style: groove;
     border: #1D0C20;
 
@@ -62,17 +62,17 @@ img {
 .img-cicle {
     background-color: rgba(59, 9, 139, 0.267);
     width: 16rem;
-    height: 16rem;
+    height: 15rem;
     display: flex;
-    border-radius: 50%;
+    border-radius: 100%;
     padding: 0;
-    margin: 0rem -20rem -20rem;
+    margin: 2rem -21rem -21rem;
 }
 
 h1 {
     align-items: center;
     display: flex;
-    margin: 6rem -1rem;
+    margin: 6rem -1rem 2rem;
     font: 600 2rem/1 'Nunito', sans-seri;
     color: #75ADC9;
 }
@@ -105,11 +105,13 @@ h4 {
 }
 
 .texto-pre {
+    width: 20rem;
+    height: 20rem;
     display: flex;
     font: 400 2vw 'Nunito', sans-seri;
-    padding: 15rem 15rem 15rem;
+    padding: 0rem 30rem -25rem;
     align-items: center;
-    margin: 0rem 29rem 20rem;
+    margin: 10rem 44rem 15rem;
     color: #75ADC9;
 }
 
@@ -134,7 +136,7 @@ h4 {
     height: 151px;
     left: 386px;
     top: 606px;
-    margin: 20rem 2rem 25rem;
+    margin: 25rem 5rem 40rem;
     align-items: center;
     background: rgba(182, 229, 250, 0.2);
     border-radius: 9px;
