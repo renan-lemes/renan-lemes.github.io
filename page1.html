@@ -14,10 +14,11 @@
 
 </head>
 
-<body>
+<body style=" overflow-x:hidden;">
+    
     <div class="titulo">
         <div class="animate-apper container">
-            <header>
+            <header style="position: relative; top: 0;left: 0;">
                 <!-- <canvas id="stars"></canvas> -->
                 <div class="container-button">
                     <button class=" Home" onclick="window.location.reload()">Home</button>
@@ -32,27 +33,35 @@
                 <div class="img-cicle">
                     <img class="img_me" src="./Images/Renan_lemes.jpeg" alt="">
                 </div>
+                
                 <h1>Renan Lemes Leepkaln</h1>
-                <h3 class="texto">Aluno: Matemática Aplicada e Computacional.</h2>
+                <h3  class="texto">Cursando: Matemática Aplicada e Computacional.</h2>
                     <h3 class="texto">Instituição: Universidade Estadual Centro-Oeste.</h3>
                     <h3 class="texto">Sobre:
                     </h3>
-                    <h3 class="texto">
+                    <h3  class="texto">
                         Sou Renan Lemes Leepkaln, estou no 4° ano de matemática aplicada, desenvolvi esse portfolio
                         tanto para melhorar minha programação, e também para mostrar algumas aplições feitas. 🦂
                     </h3>
                 </h3>
+                
             </header>
-            <main>
+            <canvas style=" margin: -30rem 0rem -12rem;" class="star" id="stars"></canvas>
+            <script  src="/scripts/page_projetos.js"></script>
+            <main   >
                 <h3 class="texto-pre">hard skills</h3>
+                
                 <div class="hard-container">
                     <h4 class="h4-c">C++ </h4>
+                    <h4 class="h4-c#">C#</h4>
                     <h4 class="h4-python">Python </h4>
-                    <h4 class="h4-html"> HTML </h4>
-                    <h4 class="h4-javascript">JavaScript </h4>
-                    <h4 class="h4-css">CSS</h4>
                     <h4 class="h4-sql">SQL</h4>
+                    <h4 class="h4-html"> HTML </h4>
+                    <h4 class="h4-css">CSS</h4>
+                    <h4 class="h4-javascript">JavaScript </h4>
+                    
                 </div>
+                
                 <div class="Prefacio">
                 </div>
                 <h2 class="Projeto" id="Projetos">Projetos:</h2>
@@ -112,10 +121,12 @@
                     </a>
                 </div>
                     <footer class="cabeçario"></footer>
+                
             </main>
         </div>
     </div>
-    <script src="/scripts/page1.js"></script>
+    
+
 </body>
 
 </html>
