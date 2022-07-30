@@ -132,8 +132,8 @@ h4 {
 
 .hard-container {
     position: absolute;
-    width: 602px;
-    height: 151px;
+    width: 42.5rem;
+    height: 11.875rem;
     left: 386px;
     top: 606px;
     margin: 25rem 5rem 40rem;
@@ -145,7 +145,7 @@ h4 {
 
     display: grid;
     
-    gap: 2px;
+    gap: 0.3rem;
     align-self: center;
     justify-self: center;
     display: flex;
