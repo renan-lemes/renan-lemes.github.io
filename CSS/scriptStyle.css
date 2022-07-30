@@ -1,0 +1,17 @@
+#stars{
+    z-index: 1;
+    padding: 20remS;
+    margin: 0;
+    display: flex;
+    opacity: 0.5;
+}
+
+.script{
+    width: 86rem;
+    height: 86rem;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    opacity: 0.5;
+}
