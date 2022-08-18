@@ -48,8 +48,8 @@ header {
 }
 
 img {
-    width: 15.5em;
-    height: 14.6rem;
+    width: 15.9rem;
+    height: 15.5rem;
     position: absolute;
     display: grid;
     margin: 0rem 0.2rem 3rem;
@@ -61,8 +61,8 @@ img {
 
 .img-cicle {
     background-color: rgba(59, 9, 139, 0.267);
-    width: 16rem;
-    height: 15rem;
+    width: 16.3rem;
+    height: 15.8rem;
     display: flex;
     border-radius: 100%;
     padding: 0;
