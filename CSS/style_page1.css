@@ -132,10 +132,10 @@ h4 {
 
 .hard-container {
     position: absolute;
-    width: 42.5rem;
-    height: 11.875rem;
-    left: 386px;
-    top: 606px;
+    width: 48.5rem;
+    height: 12.875rem;
+    left: 20.125rem;
+    top: 38.875rem;
     margin: 25rem 5rem 40rem;
     align-items: center;
     background: rgba(182, 229, 250, 0.2);
@@ -154,6 +154,12 @@ h4 {
     align-content: space-between;
     justify-content: center;
 }
+
+.img_c {
+    height: 3rem;
+    width: 3rem;
+}
+
 
 
 .Projeto {
