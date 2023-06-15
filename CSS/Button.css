@@ -244,7 +244,7 @@ img.imgGit {
     display: flex;
     max-width: 3.75rem;
     max-height: 3.125rem;
-    margin: -0.1rem -3.9rem -6rem;
+    margin: -5rem 9rem -5rem;
     border-radius: 1.1rem;
     border-style: none;
 }
@@ -278,7 +278,7 @@ img.ImgInsta {
     display: flex;
     max-width: 60px;
     max-height: 50px;
-    margin: -0.1rem -3.9rem -6rem;
+    margin: -5rem 9rem -5rem;
     border-radius: 1.1rem;
     border: none;
 }
@@ -313,10 +313,12 @@ img.imgLink {
     display: flex;
     max-width: 3.75rem;
     max-height: 3.125rem;
-    margin: -0.1rem -3.9rem -6rem;
-
+    margin: -5rem 9rem -5rem;
+    padding: 0;
     border-radius: 1.1rem;
     border: none;
+    grid-column: auto;
+    
 }
 
 .Linkedin:hover {
