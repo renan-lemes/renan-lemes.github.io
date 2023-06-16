@@ -109,9 +109,9 @@ h4 {
     height: 20rem;
     display: flex;
     font: 400 2vw 'Nunito', sans-seri;
-    padding: 0rem 30rem -25rem;
+    padding: 2rem 35rem -25rem;
     align-items: center;
-    margin: 10rem 44rem 15rem;
+    margin: 7.5rem 45rem 20rem;
     color: #75ADC9;
 }
 
@@ -121,7 +121,7 @@ h4 {
     /*1440px*/
     height: 100%;
     /*460px*/
-    max-width: 100rem;
+    max-width: 150rem;
     max-height: 30rem;
     display: flex;
     padding: 20rem 45rem 40rem;
