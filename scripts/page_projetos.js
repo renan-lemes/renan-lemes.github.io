@@ -65,7 +65,7 @@ function setup() {
 }
 
 function update() {
-    ctx.fillStyle = "#1D0C20";
+    ctx.fillStyle = "#00051F";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     starArr.forEach(function (s) {
