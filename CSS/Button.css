@@ -81,9 +81,9 @@
 }
 
 .imgUni {
-    height: 7.0rem;
-    width: 5.875rem;
-    margin: 0.5rem 25px 5rem;
+    height: 5.875rem;
+    width: 6.563rem;
+    margin: 1.5rem 25px 15rem;
     Opacity: 0.7;
 
     border-radius: 50%;
@@ -93,7 +93,7 @@
 .Projeto1 {
     text-decoration: none;
     height: 0.5rem;
-    font: 300 3.0vh 'Nunito', sans-seri;
+    font: 300 3.5vh 'Nunito', sans-seri;
     color: #000;
     text-overflow: ellipsis;
     margin: 150px 2px 25rem;
@@ -119,6 +119,7 @@
     background-color: #61ADA0;
     display: flex;
     margin: -14.4rem 35rem 0rem;
+    text-overflow: ellipsis;
     border: 0;
 }
 
@@ -126,19 +127,22 @@
     height: 0.938rem;
     font: 300 3.5vh 'Nunito', sans-seri;
     color: #000;
+    text-overflow: ellipsis;
     margin: 150px 20px 30rem;
 }
 
 .imgNlw {
-    height: 4.875rem;
+    height: 5.875rem;
     width: 6.563rem;
     margin: 2rem 26px 6rem;
     border-radius: 15%;
 }
 
 .logo-happy {
-    height: 3.125rem;
-    width: 3.125rem;
+    height: 2.125rem;
+    width: 2.125rem;
+    max-width: 2rem;
+    max-height: 2rem;
     margin: 0rem 80px 4rem;
 
 }
@@ -164,6 +168,7 @@
     font: 300 3.5vh 'Nunito', sans-seri;
     margin: -14.55rem 52rem 0rem;
     border: 0;
+    text-overflow: ellipsis;
 }
 
 .Projeto3 {
@@ -171,11 +176,12 @@
     font: 300 3.5vh 'Nunito', sans-seri;
     color: #000;
     margin: 115px 15px 10rem;
+    text-overflow: ellipsis;
 }
 
 .imgTensor {
-    height: 6.25rem;
-    width: 6.875rem;
+    height: 5.875rem;
+    width: 6.563rem;
     margin: 1rem 25px 5rem;
     Opacity: 0.8;
 
@@ -202,6 +208,7 @@
     font: 300 3.5vh 'Nunito', sans-seri;
     margin: -14.44rem 65rem 0rem;
     border: 0;
+    text-overflow: ellipsis;
 }
 
 .Projeto4 {
@@ -209,13 +216,13 @@
     font: 300 3.5vh 'Nunito', sans-seri;
     color: #000;
     margin: 130px 25px 10rem;
+    text-overflow: ellipsis;
 }
 
 .imgPython {
-    height: 6.25rem;
-    width: 6.875rem;
+    height: 5.875rem;
+    width: 6.563rem;
     margin: 1.5rem 25px 5rem;
-
 
     border-radius: 40%;
 }
