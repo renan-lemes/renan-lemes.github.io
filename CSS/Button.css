@@ -74,14 +74,15 @@
     border-radius: 2rem;
     background-color: #68B2F8;
     display: flex;
-    font: 300 3.5vh 'Nunito', sans-seri;
+    font: 300 3.0vh 'Nunito', sans-seri;
     margin: -14rem 22rem 0rem;
+    text-overflow:ellipsis;
     border: 0;
 }
 
 .imgUni {
-    height: 7.5rem;
-    width: 6.875rem;
+    height: 7.0rem;
+    width: 5.875rem;
     margin: 0.5rem 25px 5rem;
     Opacity: 0.7;
 
@@ -91,9 +92,10 @@
 
 .Projeto1 {
     text-decoration: none;
-    height: 0.938rem;
-    font: 300 3.5vh 'Nunito', sans-seri;
+    height: 0.5rem;
+    font: 300 3.0vh 'Nunito', sans-seri;
     color: #000;
+    text-overflow: ellipsis;
     margin: 150px 2px 25rem;
 }
 
