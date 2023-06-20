@@ -3,15 +3,18 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+
 }
 
 html {
     scroll-behavior: smooth;
+    background-color: #00051F;
 }
 
 main {
 
     /* color: black; */
+    color:#00051F;
     border: none;
 }
 
@@ -20,7 +23,7 @@ body {
     flex-direction: column;
     width: 100vw;
     height: 100vh;
-    background-color: #1D0C20;
+    background-color: #00051F;
 }
 
 header {
@@ -47,7 +50,13 @@ header {
   }
   
 ::-webkit-scrollbar-thumb {
-    background-color: #000;
+    background-color: #00051F;
+}
+
+.box-stars {
+    border: white;
+    width: auto;
+    height: auto;
 }
 
 .img_back {
@@ -69,7 +78,7 @@ img {
     margin: 0rem 0.2rem 3rem;
     border-radius: 70%;
     border-style: groove;
-    border: #1D0C20;
+    border: #00051F;
 
 }
 
@@ -250,5 +259,5 @@ footer.cabeçario {
     width: 90vw;
     display: flex;
     margin: -20rem 2rem 4rem;
-    background-color: #1D0C20;
+    background-color: #00051F;
 }
