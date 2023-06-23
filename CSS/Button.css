@@ -267,7 +267,7 @@ button.Git {
     display: flex;
     background-color: #EFF3CD;
     border-radius: 50%;
-    margin: -5rem 26rem 16rem;
+    margin: -5rem 26rem 11rem;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -336,7 +336,7 @@ button.Linkedin {
     background-color: #3c8fdca4;
     border-radius: 50%;
     border: none;
-    margin: -14rem 58rem 20rem;
+    margin: -19rem 58rem 20rem;
     align-items: center;
     justify-content: center;
     flex-direction: column;
