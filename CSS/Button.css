@@ -239,13 +239,12 @@
 }
 
 button.Git {
-    width: 11.875rem;
-    height: 4.177rem;
+    width: 8.875rem;
+    height: 8.875rem;
     display: flex;
     background-color: #EFF3CD;
-    border-radius: 1.5rem;
+    border-radius: 50%;
     margin: -5rem 26rem 16rem;
-    border: none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -260,6 +259,7 @@ img.imgGit {
     margin: -5rem 9rem -5rem;
     border-radius: 1.1rem;
     border-style: none;
+
 }
 
 .Git:hover {
@@ -273,11 +273,11 @@ img.imgGit {
 }
 
 button.Insta {
-    width: 11.875rem;
-    height: 4.177rem;
+    width: 8.875rem;
+    height: 8.877rem;
     display: flex;
     background-color: #dc3ccca4;
-    border-radius: 1.5rem;
+    border-radius: 50%;
     border: none;
     margin: -20rem 42rem 10rem;
     align-items: center;
@@ -307,14 +307,13 @@ img.ImgInsta {
 }
 
 button.Linkedin {
-    width: 11.875rem;
-    height: 4.177rem;
+    width: 8.875rem;
+    height: 8.875rem;
     display: flex;
     background-color: #3c8fdca4;
-    border-radius: 1.5rem;
+    border-radius: 50%;
     border: none;
     margin: -14rem 58rem 20rem;
-    ;
     align-items: center;
     justify-content: center;
     flex-direction: column;
