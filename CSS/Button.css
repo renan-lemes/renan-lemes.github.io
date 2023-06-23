@@ -48,13 +48,17 @@
     font: 200 -2rem/1 'Nunito', sans-seri;
 
     border-radius: 2rem;
-    background-color: #4196E3;
-    border: 0;
+    color: #4196E3;
+    background-color: #00051F;
+    border: 2px solid #4196E3;
+
     cursor: pointer;
 }
 
+
 .Contato:hover {
     background-color: #71b9fc;
+    color: #fff;
 }
 
 .Contato:active {
@@ -69,13 +73,15 @@
     font: 200 -2rem/1 'Nunito', sans-seri;
 
     border-radius: 2rem;
-    background-color: #eff3cda9;
-    border: 0;
+    color: #eff3cda9;
+    background-color: #00051F;
+    border: 2px solid #eff3cda9;
     cursor: pointer;
 }
 
 .Projetos:hover {
     background-color: #EFF3CD;
+    color: #000;
 }
 
 .Projetos:active {
