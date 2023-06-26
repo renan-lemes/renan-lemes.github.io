@@ -93,14 +93,27 @@
 
 .retangulo1 {
     height: 14.375rem;
+    position: relative;
     width: 9.875rem;
     border-radius: 2rem;
-    background-color: #68B2F8;
+    /*background-color: #68B2F8;*/
     display: flex;
-    font: 300 3.0vh 'Nunito', sans-seri;
+    font: 300 3.1vh 'Nunito', sans-seri;
     margin: -14rem 22rem 0rem;
     text-overflow:ellipsis;
     border: 0;
+    display: flex;
+    background: #00051f84;
+}
+
+.retangulo1::before {
+    content: '';
+    
+    background: linear-gradient(#61ADA0, #d400d4);
+    width: 150px;
+    height: 100%;
+    position: absolute;
+    border-radius: 2rem;
 }
 
 .imgUni {
@@ -116,7 +129,7 @@
 .Projeto1 {
     text-decoration: none;
     height: 0.5rem;
-    font: 300 3.5vh 'Nunito', sans-seri;
+    font: 300 3.1vh 'Nunito', sans-seri;
     color: #000;
     text-overflow: ellipsis;
     margin: 150px 2px 25rem;
@@ -138,7 +151,7 @@
     height: 14.375rem;
     width: 9.875rem;
     border-radius: 2rem;
-    font: 300 3.5vh 'Nunito', sans-seri;
+    font: 300 3.1vh 'Nunito', sans-seri;
     background-color: #61ADA0;
     display: flex;
     margin: -14.4rem 35rem 0rem;
@@ -148,7 +161,7 @@
 
 .Projeto2 {
     height: 0.938rem;
-    font: 300 3.5vh 'Nunito', sans-seri;
+    font: 300 3.1vh 'Nunito', sans-seri;
     color: #000;
     text-overflow: ellipsis;
     margin: 150px 20px 30rem;
@@ -166,7 +179,7 @@
     width: 2.125rem;
     max-width: 2rem;
     max-height: 2rem;
-    margin: 0rem 80px 4rem;
+    margin: 0rem 80px 6rem;
 
 }
 
@@ -188,7 +201,7 @@
     border-radius: 2rem;
     background-color: #7037CD;
     display: flex;
-    font: 300 3.5vh 'Nunito', sans-seri;
+    font: 300 3.1vh 'Nunito', sans-seri;
     margin: -14.55rem 52rem 0rem;
     border: 0;
     text-overflow: ellipsis;
@@ -196,7 +209,7 @@
 
 .Projeto3 {
     height: 0.938rem;
-    font: 300 3.5vh 'Nunito', sans-seri;
+    font: 300 3.1vh 'Nunito', sans-seri;
     color: #000;
     margin: 115px 15px 10rem;
     text-overflow: ellipsis;
@@ -228,7 +241,7 @@
     border-radius: 2rem;
     background-color: #EFF3CD;
     display: flex;
-    font: 300 3.5vh 'Nunito', sans-seri;
+    font: 300 3.1vh 'Nunito', sans-seri;
     margin: -14.44rem 65rem 0rem;
     border: 0;
     text-overflow: ellipsis;
@@ -236,7 +249,7 @@
 
 .Projeto4 {
     height: 0.938rem;
-    font: 300 3.5vh 'Nunito', sans-seri;
+    font: 300 3.1vh 'Nunito', sans-seri;
     color: #000;
     margin: 130px 25px 10rem;
     text-overflow: ellipsis;
