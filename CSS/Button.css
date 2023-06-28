@@ -96,7 +96,7 @@
     width: 9.875rem;
     
     position: relative;
-    border-radius: 2rem;
+    border-radius: 20px;
     /*background-color: #68B2F8;*/
     display: flex;
     font: 300 3.1vh 'Nunito', sans-seri;
@@ -104,36 +104,76 @@
     text-overflow:ellipsis;
     border: 0;
     display: flex;
-    background: #00051f84;
+    background: #00051f65;
+    overflow: hidden;   
 }
 
-.retangulo1-move {
-    text-overflow:  ellipsis;
+h3.Projeto1 {
     position: relative;
-
+    z-index: 10;
+    color: #fff;
 }
 
-.retangulo1-move::before {
+div.retangulo1-move{
     content: '';
     
-    background: linear-gradient(#61ADA0, #d400d4);
-    width: 150px;
+    margin: 0px 50px;
+    width: 14rem;
     max-width: 150px;
     height: 100%;
     position: absolute;
-    border-radius: 2rem;
+    border-radius: 20px;
+    /* overflow: hidden; */
 }
 
-.retangulo1::before {
+div.retangulo1-move::before {
     content: '';
+    width: 5rem;
+    height: 15.375rem;
+    
+    position: absolute;
+    align-items: center;
+
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    align-items: center;
+    background: linear-gradient(#61ADA0, #d400d4);
+    animation: animate 4s linear infinite;
 }
+
+div.retangulo1-move::after {
+    content: '';
+    /* position: absolute; */
+    inset: 4px;
+    background: #00051F;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} 
+
+.retangulo1::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #00051F;
+    border-radius: 16px;
+}
+
 
 .imgUni {
     height: 5.875rem;
     width: 6.563rem;
     margin: 1.5rem 25px 15rem;
     Opacity: 0.7;
-
+    position: absolute;
+    z-index: 10;
     border-radius: 50%;
 
 }
