@@ -93,8 +93,9 @@
 
 .retangulo1 {
     height: 14.375rem;
-    position: relative;
     width: 9.875rem;
+    
+    position: relative;
     border-radius: 2rem;
     /*background-color: #68B2F8;*/
     display: flex;
@@ -106,14 +107,25 @@
     background: #00051f84;
 }
 
-.retangulo1::before {
+.retangulo1-move {
+    text-overflow:  ellipsis;
+    position: relative;
+
+}
+
+.retangulo1-move::before {
     content: '';
     
     background: linear-gradient(#61ADA0, #d400d4);
     width: 150px;
+    max-width: 150px;
     height: 100%;
     position: absolute;
     border-radius: 2rem;
+}
+
+.retangulo1::before {
+    content: '';
 }
 
 .imgUni {
