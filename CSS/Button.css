@@ -96,7 +96,7 @@
     width: 9.875rem;
     
     position: relative;
-    border-radius: 20px;
+    border-radius: 27px;
     /*background-color: #68B2F8;*/
     display: flex;
     font: 300 3.1vh 'Nunito', sans-seri;
@@ -128,12 +128,12 @@ div.retangulo1-move{
 
 div.retangulo1-move::before {
     content: '';
-    width: 5rem;
-    height: 15.375rem;
-    
+    width: 6.375rem;
+    height: 16.375rem;
+    margin: -1.1rem -1.5rem 9rem;
     position: absolute;
     align-items: center;
-
+    /* z-index: 10; */
     display: flex;
     justify-content: center;
     border-radius: 1rem;
@@ -162,7 +162,7 @@ div.retangulo1-move::after {
     content: '';
     position: absolute;
     inset: 4px;
-    background: #00051F;
+    background: #010831;
     border-radius: 16px;
 }
 
