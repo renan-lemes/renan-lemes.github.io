@@ -202,14 +202,77 @@ div.retangulo1-move::after {
 .retangulo2 {
     height: 14.375rem;
     width: 9.875rem;
-    border-radius: 2rem;
+    
+    position: relative;
+    border-radius: 27px;
+    /*background-color: #68B2F8;*/
+    display: flex;
     font: 300 3.1vh 'Nunito', sans-seri;
-    background-color: #61ADA0;
+
     display: flex;
     margin: -14.4rem 35rem 0rem;
     text-overflow: ellipsis;
     border: 0;
+    text-overflow:ellipsis;
+    border: 0;
+    display: flex;
+    background: #00051F;
+    overflow: hidden;
 }
+
+div.retangulo2-move{
+    content: '';
+    
+    margin: 0px 50px;
+    width: 14rem;
+    max-width: 150px;
+    height: 100%;
+    position: absolute;
+    border-radius: 20px;
+    /* overflow: hidden; */
+}
+
+div.retangulo2-move::before {
+    content: '';
+    width: 6.375rem;
+    height: 16.375rem;
+    margin: -1.1rem -1.5rem 9rem;
+    position: absolute;
+    align-items: center;
+    /* z-index: 10; */
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    align-items: center;
+    background: linear-gradient(#582a6c, #527df5);
+    animation: ani 4s linear infinite;
+}
+
+div.retangulo2-move::after {
+    content: '';
+    /* position: absolute; */
+    inset: 4px;
+    background: #00051F;
+}
+
+@keyframes ani {
+    100%{
+        transform: rotate(0deg);
+    }
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
+.retangulo2::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #46ead1;
+    border-radius: 16px;
+}
+
+
 
 .Projeto2 {
     height: 0.938rem;
@@ -224,15 +287,25 @@ div.retangulo1-move::after {
     width: 6.563rem;
     margin: 2rem 26px 6rem;
     border-radius: 15%;
+    z-index: 10;
+
 }
 
 .logo-happy {
     height: 2.125rem;
+    z-index: 10;
+
     width: 2.125rem;
     max-width: 2rem;
     max-height: 2rem;
     margin: 0rem 80px 6rem;
 
+}
+
+h3.Projeto2 {
+    position: relative;
+    z-index: 10;
+    color: #000;
 }
 
 .retangulo2:hover {
