@@ -370,6 +370,7 @@ h3.Projeto2 {
     margin: -14.44rem 65rem 0rem;
     border: 0;
     text-overflow: ellipsis;
+    transition: all 0.3s;
 }
 
 .Projeto4 {
@@ -390,7 +391,8 @@ h3.Projeto2 {
 
 .retangulo4:hover {
     background-color: #eff3cdb2;
-    margin: -14.44rem 66rem 0rem;
+    scale: 1.1;
+    /* margin: -14.44rem 66rem 0rem; */
 }
 
 .retangulo4:active {
