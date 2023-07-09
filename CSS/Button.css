@@ -375,7 +375,6 @@ div.retangulo3-move::before {
     animation: anim 4s linear infinite;
 }
 
-
 div.retangulo3-move::after {
     content: '';
     /* position: absolute; */
@@ -435,20 +434,84 @@ h3.Projeto3 {
     animation-duration: 180ms;
 }
 
-
-
+/*
+    margin: -14.44rem 65rem 0rem;
+    background-color: #EFF3CD;
+*/
 
 .retangulo4 {
     height: 14.375rem;
     width: 9.875rem;
-    border-radius: 2rem;
-    background-color: #EFF3CD;
+    
+    position: relative;
+    border-radius: 27px;
+    /*background-color: #68B2F8;*/
     display: flex;
     font: 300 3.1vh 'Nunito', sans-seri;
-    margin: -14.44rem 65rem 0rem;
-    border: 0;
+
+    display: flex;
+    margin: -14.4rem 35rem 0rem;
     text-overflow: ellipsis;
+    border: 0;
+    display: flex;
+    background: #00051F;
+    overflow: hidden;
     transition: all 0.3s;
+    margin: -14.44rem 65rem 0rem;
+}
+
+div.retangulo4-move{
+    content: '';
+    
+    margin: 0px 50px;
+    width: 14rem;
+    max-width: 150px;
+    height: 100%;
+    position: absolute;
+    border-radius: 20px;
+    /* overflow: hidden; */
+}
+
+div.retangulo4-move::before {
+    content: '';
+    width: 6.375rem;
+    height: 16.375rem;
+    margin: -1.1rem -1.5rem 9rem;
+    position: absolute;
+    align-items: center;
+    /* z-index: 10; */
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    align-items: center;
+    background: linear-gradient(#f4f1f1f3, #00c2f8);
+    animation: anim 4s linear infinite;
+}
+
+div.retangulo4-move::after {
+    content: '';
+    /* position: absolute; */
+    inset: 4px;
+    background: #00051F;
+}
+
+.retangulo4::after {
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: #EFF3CD;
+    border-radius: 16px;
+}
+
+img.Projeto4 {
+    position: relative;
+    z-index: 10;
+}
+
+h3.Projeto4 {
+    position: relative;
+    z-index: 10;
+    color: #000;
 }
 
 .Projeto4 {
@@ -463,7 +526,7 @@ h3.Projeto3 {
     height: 5.875rem;
     width: 6.563rem;
     margin: 1.5rem 25px 5rem;
-
+    z-index: 10;
     border-radius: 40%;
 }
 
