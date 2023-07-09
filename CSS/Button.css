@@ -563,14 +563,18 @@ img.imgGit {
     margin: -5rem 9rem -5rem;
     border-radius: 1.1rem;
     border-style: none;
-
+    transition: all 0.3s;
 }
 
 .Git:hover {
+    transition: all 0.3s;
+    scale: 0.9;
     background-color: #a6a88e;
 }
 
 .Git:active {
+    transition: all 0.3s;
+    scale: 0.9;
     border: none;
     opacity: 0.5;
     animation-duration: 150ms;
@@ -598,13 +602,19 @@ img.ImgInsta {
     margin: -5rem 9rem -5rem;
     border-radius: 50%;
     border: none;
+    transition: all 0.3s;
+    scale: 0.9;
 }
 
 .Insta:hover {
     background-color: #dc3ccc86;
+    transition: all 0.3s;
+    scale: 0.9;
 }
 
 .Insta:active {
+    transition: all 0.3s;
+    scale: 0.9;
     border: none;
     opacity: 0.5;
     animation-duration: 150ms;
@@ -621,7 +631,13 @@ button.Linkedin {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 }
+
+button.Linkedin:hover {
+    transition: all 0.3s;
+    scale: 0.9;
+}  
 
 img.imgLink {
     width: 3.6rem;
@@ -634,15 +650,20 @@ img.imgLink {
     border-radius: 70%;
     border: none;
     grid-column: auto;
-    
+    transition: all 0.3s;
+
 }
 
 .Linkedin:hover {
     background-color: #3c8fdc71;
+    transition: all 0.3s;
+    scale: 0.9;
 }
 
 .Linkedin:active {
     border: none;
     opacity: 0.5;
     animation-duration: 150ms;
+    transition: all 0.3s;
+    scale: 0.9;
 }
