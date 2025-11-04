@@ -1,0 +1,545 @@
+/*
+    CSS UNIFICADO E RESPONSIVO
+    Baseado em style_page1.csv e Button.csv, mas refatorado para Flexbox/Grid e Media Queries
+    para garantir a responsividade.
+*/
+
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif, Arial, Helvetica; /* Priorizando Nunito, como no HTML */
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #00051F;
+}
+
+body {
+    background-color: #00051F;
+    color: #75ADC9; /* Cor de texto principal do original */
+    overflow-x: hidden;
+}
+
+/* Estrutura Principal */
+.main-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Scrollbar (mantido do original) */
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    padding: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #75ADC9; /* Alterado para a cor do texto */
+}
+
+/* Header e Navegação */
+header {
+    padding: 2rem 0;
+    text-align: center;
+    position: relative; /* Necessário para posicionar o canvas */
+    overflow: hidden; /* Para garantir que o canvas não cause overflow */
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.Home, .Contato, .Projetos {
+    width: 5.75rem;
+    height: 2.6rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    background-color: #00051F;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: inherit; /* Para o link <a> */
+}
+
+.Home {
+    color: #703CDC;
+    border: 2px solid #703CDC;
+}
+
+.Home:hover {
+    background-color: rgba(138, 106, 204, 0.918);
+    color: #fff;
+}
+
+.Contato {
+    color: #4196E3;
+    border: 2px solid #4196E3;
+}
+
+.Contato:hover {
+    background-color: #71b9fc;
+    color: #fff;
+}
+
+.Projetos {
+    color: #eff3cda9;
+    border: 2px solid #eff3cda9;
+}
+
+.Projetos:hover {
+    background-color: #EFF3CD;
+    color: #000;
+}
+
+/* Área de Perfil */
+.profile-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.img-cicle {
+    width: 16.3rem;
+    height: 15.8rem;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    background-color: rgba(59, 9, 139, 0.267);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_me {
+    width: 15.9rem;
+    height: 15.5rem;
+    border-radius: 70%;
+    object-fit: cover;
+    position: static; /* Removido position: absolute */
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #75ADC9;
+    margin-top: 1rem;
+}
+
+.about-me {
+    max-width: 800px;
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.about-me h2 {
+    font-size: 1.5rem;
+    color: #75ADC9;
+    margin-bottom: 0.5rem;
+}
+
+.about-me p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Hard Skills */
+.skills-section {
+    padding: 2rem 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #75ADC9;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.hard-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    background: rgba(182, 229, 250, 0.2);
+    border-radius: 9px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    text-align: center;
+}
+
+.skill-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+    position: static; /* Removido position: absolute */
+}
+
+.skill-name {
+    font-weight: bold;
+    color: #75ADC9;
+}
+
+/* Projetos (Cards) */
+.projects-section {
+    padding: 4rem 0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.project-card {
+    height: 14.375rem;
+    width: 100%;
+    max-width: 9.875rem; /* Mantendo a largura original como máximo */
+    margin: 0 auto;
+    position: relative;
+    border-radius: 27px;
+    border: 0;
+    background: #00051f65;
+    overflow: hidden;
+    transition: all 0.3s;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+}
+
+.card-content {
+    position: relative;
+    z-index: 10;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.card-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.project-logo {
+    max-width: 6.563rem;
+    max-height: 5.875rem;
+    object-fit: contain;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.logo-happy {
+    width: 2.125rem;
+    height: 2.125rem;
+    max-width: 2rem;
+    max-height: 2rem;
+    margin: 0;
+    border-radius: 0;
+}
+
+/* Efeitos de Borda (Adaptado do original, mas simplificado) */
+.project-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 27px;
+    padding: 4px;
+    background: linear-gradient(45deg, var(--color-start), var(--color-end));
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 1;
+    animation: rotate 4s linear infinite;
+}
+
+/* Cores específicas para cada card (simulando o original) */
+.projects-grid a:nth-child(1) { /* retangulo1 */
+    --color-start: #61ADA0;
+    --color-end: #d400d4;
+}
+
+.projects-grid a:nth-child(2) { /* retangulo2 */
+    --color-start: #582a6c;
+    --color-end: #527df5;
+}
+
+.projects-grid a:nth-child(3) { /* retangulo3 */
+    --color-start: #4bf776;
+    --color-end: #ebeef6;
+}
+
+.projects-grid a:nth-child(4) { /* retangulo4 */
+    --color-start: #f4f1f1f3;
+    --color-end: #00c2f8;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Contatos */
+.contact-section {
+    padding: 4rem 0;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.contact-button {
+    width: 8.875rem;
+    height: 8.875rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    transform: scale(0.9);
+}
+
+.contact-icon {
+    width: 3.75rem;
+    height: 3.75rem;
+    object-fit: contain;
+    position: static;
+    margin: 0;
+    border-radius: 0;
+}
+
+/* Cores dos botões de contato (simulando o original) */
+.contact-links a:nth-child(1) .contact-button { /* Git */
+    background-color: #EFF3CD;
+}
+.contact-links a:nth-child(1) .contact-button:hover {
+    background-color: #a6a88e;
+}
+
+.contact-links a:nth-child(2) .contact-button { /* Insta */
+    background-color: #dc3ccca4;
+}
+.contact-links a:nth-child(2) .contact-button:hover {
+    background-color: #dc3ccc86;
+}
+
+.contact-links a:nth-child(3) .contact-button { /* Linkedin */
+    background-color: #3c8fdca4;
+}
+.contact-links a:nth-child(3) .contact-button:hover {
+    background-color: #3c8fdc71;
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid #75ADC9;
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+/* =================================
+   Animações (Baseado em Animation.csv)
+   ================================= */
+@keyframes apper{ 
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes right{
+    from{ 
+        transform: translateX(-90%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes right_and_left{
+    from{
+        transform: translateX(-90%) translateY(-90%);
+    }
+    to{
+        transform: translateX(0%) translateY(0%);
+    }
+}
+
+.animate-apper {
+    animation-name: apper;
+    animation-duration: 2000ms;
+    animation-fill-mode: backwards;
+}
+
+.animate-right-and-left{
+    animation-name: right_and_left; /* Corrigido para right_and_left */
+    animation-duration: 300ms;
+    animation-fill-mode: backwards;
+}
+
+.animate-right{
+    animation-name: right ;
+    animation-duration: 300ms;
+    animation-fill-mode: backwards;
+}
+
+/* Estilos de Script (Baseado em scriptStyle.csv) */
+#stars{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Coloca o canvas atrás do conteúdo */
+    opacity: 0.5;
+}
+
+.script{
+    width: 100%; /* Tornando responsivo */
+    height: 100vh; /* Tornando responsivo */
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    opacity: 0.5;
+}
+
+/* =================================
+   Media Queries para Responsividade
+   ================================= */
+
+/* Telas Pequenas (Smartphones, até 600px) */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .container-button {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .Home, .Contato, .Projetos {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .img-cicle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .img_me {
+        width: 100px;
+        height: 100px;
+    }
+
+    .hard-container {
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+
+    .skill-item {
+        width: 80px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr; /* Uma coluna em telas muito pequenas */
+    }
+
+    .project-card {
+        max-width: 80%;
+        margin: 1rem auto;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .contact-button {
+        width: 60px;
+        height: 60px;
+    }
+
+    .contact-icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Telas Médias (Tablets, 601px a 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr); /* Duas colunas em tablets */
+    }
+}
+
+/* Telas Grandes (Desktops, acima de 900px) */
+@media (min-width: 901px) {
+    .profile-area {
+        flex-direction: row;
+        gap: 3rem;
+        text-align: left;
+    }
+
+    .about-me {
+        text-align: left;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(4, 1fr); /* Quatro colunas em desktops */
+    }
+}
