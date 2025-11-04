@@ -3,9 +3,6 @@ const ctx = canvas.getContext("2d")
 
 var screen, starArr;
 
-const height = 1867;
-const width = 1062;
-
 var params = { speed: 10, count: 400, life: 5 };
 
 setup()
