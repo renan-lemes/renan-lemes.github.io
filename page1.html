@@ -1,155 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/style_page1.css">
-    <link rel="stylesheet" href="./CSS/Animation.css">
+    <!-- O CSS será criado na próxima fase, substituindo os múltiplos arquivos antigos -->
+    <link rel="stylesheet" href="./CSS/style.css">
     <link rel="icon" href="./Images/sciece.png">
-    <link rel='stylesheet' href="/CSS/Button.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <title>Renan Lemes </title>
-
+    <title>Renan Lemes | Portfólio Pessoal</title>
 </head>
 
-<body style=" overflow-x:hidden;">
+<body>
     
-    <div class="titulo">
-        <div class="animate-apper container">
-            <header style="position: relative; top: 0;left: 0;">
-                <!-- <canvas id="stars"></canvas> -->
-                <div class="container-button">
-                    <button class=" Home" onclick="window.location.reload()">Home</button>
-                    <a href="#Contato">
-                        <button class="Contato">Contato</button>
-                    </a>
-                    <a href="#Projetos">
-                        <button class="Projetos" onclick="">Projetos</button>
-                    </a>
+    <div class="main-wrapper">
+        <header class="hero-section">
+            <canvas id="stars"></canvas>
+            <div class="container header-content">
+                <nav class="main-nav">
+                    <a href="#home" class="nav-button">Início</a>
+                    <a href="#contato" class="nav-button">Contato</a>
+                    <a href="#projetos" class="nav-button">Projetos</a>
+                </nav>
+
+                <div class="profile-area">
+                    <div class="img-cicle">
+                        <img class="img_me" src="./Images/One_robot.png" alt="Foto de Perfil de Renan Lemes">
+                    </div>
+                    
+                    <h1>Renan Lemes Leepkaln</h1>
+                    
+                    <div class="about-me">
+                        <h2>Formação:</h2>
+                        <p><strong>Matemática Aplicada e Computacional</strong> pela Universidade Estadual Centro-Oeste (UNICENTRO).</p>
+                        <p>Pós-graduação em <strong>Estatística para Ciência de Dados</strong>.</p>
+                        
+                        <h2>Sobre Mim:</h2>
+                        <p>
+                            Sou Renan Lemes Leepkaln. Desenvolvi este portfólio com o objetivo de aprimorar minhas habilidades em programação e, principalmente, para apresentar algumas das aplicações e projetos que realizei. 
+                            Seja bem-vindo(a)! 
+                            <span role="img" aria-label="Escorpião">🦂</span>
+                        </p>
+                    </div>
                 </div>
-                <!-- <img class="img_back" src="/Images/Novo_teste_Header.png-removebg-preview-removebg-preview.png" alt=""> -->
-                <div class="img-cicle">
-                    <img class="img_me" src="./Images/One_robot.png" alt="">
-                </div>
-                
-                <h1>Renan Lemes Leepkaln</h1>
-                <h3  class="texto">Formado: Matemática Aplicada e Computacional.</h2>
-                    <h3 class="texto">Instituição: Universidade Estadual Centro-Oeste.</h3>
-                    <h3 class="texto">Sobre:
-                    </h3>
-                    <h3  class="texto">
-                        Sou Renan Lemes Leepkaln, estou formado em matemática aplicada, desenvolvi esse portfolio
-                        tanto para melhorar minha programação, e também para mostrar algumas aplições feitas. 🦂
-                    </h3>
-                </h3>
-                
-            </header>
-            <div class="box-stars">
-                <canvas style=" margin: -30rem 0rem -12rem;" class="star" id="stars"></canvas>
             </div>
-            <script style="color: #00051F;" src="/scripts/page_projetos.js"></script>
-            <main>
-                <h3 class="texto-pre">hard skills</h3>
+            <!-- O canvas de estrelas e o script serão tratados no CSS e JS, se necessário -->
+            <!-- <div class="box-stars">
+                <canvas class="star" id="stars"></canvas>
+            </div>
+            <script src="/scripts/page_projetos.js"></script> -->
+        </header>
+
+        <main>
+    <script src="/scripts/page_projetos.js"></script>
+            <section class="skills-section">
+                <h2 class="section-title">Hard Skills</h2>
                 
                 <div class="hard-container">
-                    
-                        <h4 class="h4-python">
-                            <p style="padding-top: 3rem; margin: center;">  </p>
-                            <img class="img_python" src="https://cdn-icons-png.flaticon.com/512/2/2181.png"/>
-                        </h4>
-                        
-                        <h4 class="h4-sql">
-                            <p style="padding-top: 3rem; margin: center;">  </p>
-                            <img class="img_sql" src="https://desenvolvimentoaberto.files.wordpress.com/2016/11/logoazuresql.png" />
-                        </h4>
-
-                        <h4 class="h4-c">
-                            <p style="padding-top: 3rem; margin:center;">  </p>
-                            <img class="img_c" src='https://i.pinimg.com/originals/13/a8/94/13a89487b6a28c9fd6fee57cf6bc5e2c.png'/>
-                        </h4>
-
-                        <h4 class="h4-c#">
-                            <p style="padding-top: 3rem; margin: center;">  </p>
-                            <img class="img_cc" src="./Images/c-sharp-c.228x256.png" />
-                        </h4>
-                        
-                        <h4 class="h4-javascript">
-                            <p style="padding-top: 3rem; margin: center;">  </p>
-                            <img class="img_js" src="https://logospng.org/download/javascript/logo-javascript-icon-1024.png" />
-                        </h4>
-                    
+                    <!-- Python -->
+                    <div class="skill-item">
+                        <img class="skill-icon" src="https://cdn-icons-png.flaticon.com/512/2/2181.png" alt="Ícone Python"/>
+                        <p class="skill-name">Python</p>
+                    </div>
+                    <!-- SQL -->
+                    <div class="skill-item">
+                        <img class="skill-icon" src="https://desenvolvimentoaberto.files.wordpress.com/2016/11/logoazuresql.png" alt="Ícone SQL"/>
+                        <p class="skill-name">SQL</p>
+                    </div>
+                    <!-- C -->
+                    <div class="skill-item">
+                        <img class="skill-icon" src='https://i.pinimg.com/originals/13/a8/94/13a89487b6a28c9fd6fee57cf6bc5e2c.png' alt="Ícone C"/>
+                        <p class="skill-name">C</p>
+                    </div>
+                    <!-- C# -->
+                    <div class="skill-item">
+                        <img class="skill-icon" src="./Images/c-sharp-c.228x256.png" alt="Ícone C#"/>
+                        <p class="skill-name">C#</p>
+                    </div>
+                    <!-- JavaScript -->
+                    <div class="skill-item">
+                        <img class="skill-icon" src="https://logospng.org/download/javascript/logo-javascript-icon-1024.png" alt="Ícone JavaScript"/>
+                        <p class="skill-name">JavaScript</p>
+                    </div>
                 </div>
-                
-                <div class="Prefacio">
-                </div>
-                <h2 class="Projeto" id="Projetos">Projetos:</h2>
-                <aside>
-                    <a style="text-decoration: none;" href="https://github.com/renan-lemes/Article-Data-Structure">
-                        <button class="retangulo1">
-                            <h3 class="Projeto1">
-                                Structure of Data
-                            </h3>
-                            <img class="imgUni" src="./Images/logo_Unicentro_cor-01.png"></img>
-                            <div class="retangulo1-move"></div>
-                        </button>
+            </section>
+            
+            <section class="projects-section" id="projetos">
+                <h2 class="section-title">Projetos</h2>
+                <aside class="projects-grid">
+                    <!-- Projeto 1: Structure of Data -->
+                    <a class="project-card" href="https://github.com/renan-lemes/Article-Data-Structure" target="_blank" rel="noopener noreferrer">
+                        <div class="card-content">
+                            <h3>Structure of Data</h3>
+                            <img class="project-logo" src="./Images/logo_Unicentro_cor-01.png" alt="Logo Unicentro">
+                        </div>
+                        <div class="card-overlay"></div>
                     </a>
-                    <a style="text-decoration: none;" href="https://github.com/renan-lemes/Happy">
-                        <button class="retangulo2">
-                            <h3 class="Projeto2">
-                                Happy <img class="logo-happy" src="./Images/logo-icon.png">
-                            </h3>
-                            <img class="imgNlw" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcAJSMu-S_GCNKFAvd868iUKlMFZP1xHTf1AUkDfwBPYAwSYjIAyGr0w8GswzUBWvpuOE&usqp=CAU">
-                            <div class="retangulo2-move"></div>
-                        </button>
+                    <!-- Projeto 2: Happy -->
+                    <a class="project-card" href="https://github.com/renan-lemes/Happy" target="_blank" rel="noopener noreferrer">
+                        <div class="card-content">
+                            <h3>Happy <img class="logo-happy" src="./Images/logo-icon.png" alt="Logo Happy"></h3>
+                            <img class="project-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcAJSMu-S_GCNKFAvd868iUKlMFZP1xHTf1AUkDfwBPYAwSYjIAyGr0w8GswzUBWvpuOE&usqp=CAU" alt="Logo NLW">
+                        </div>
+                        <div class="card-overlay"></div>
                     </a>
-                    <a style="text-decoration: none;" href="https://github.com/renan-lemes/TensorFlow-Pokemon-Course">
-                        <button class="retangulo3">
-                            <h3 class="Projeto3">
-                                Curso TensorFlow
-                            </h3>
-                            <img class="imgTensor" src="./Images/Tensorflow_logo.svg.png">
-                            <div class="retangulo3-move"></div>
-                        </button>
+                    <!-- Projeto 3: Curso TensorFlow -->
+                    <a class="project-card" href="https://github.com/renan-lemes/TensorFlow-Pokemon-Course" target="_blank" rel="noopener noreferrer">
+                        <div class="card-content">
+                            <h3>Curso TensorFlow</h3>
+                            <img class="project-logo" src="./Images/Tensorflow_logo.svg.png" alt="Logo TensorFlow">
+                        </div>
+                        <div class="card-overlay"></div>
                     </a>
-                    <a style="text-decoration: none;" href="https://github.com/renan-lemes/python_labs">
-                        <button class="retangulo4">
-                            <h3 class="Projeto4">
-                                Python lab
-                            </h3>
-                            <img class="imgPython" src="./Images/python_logo_icon.png">
-                            <div class="retangulo4-move"></div>
-                        </button>
+                    <!-- Projeto 4: Python lab -->
+                    <a class="project-card" href="https://github.com/renan-lemes/python_labs" target="_blank" rel="noopener noreferrer">
+                        <div class="card-content">
+                            <h3>Python lab</h3>
+                            <img class="project-logo" src="./Images/python_logo_icon.png" alt="Logo Python">
+                        </div>
+                        <div class="card-overlay"></div>
                     </a>
                 </aside>
-                <h2 class="Contatos" id="Contato">Contatos:</h2>
-                <div class="Container-triangle">
-                    <a style="text-decoration: none;" href="https://github.com/renan-lemes">
-                        <button class="Git" onclick="">
-                            <img class="imgGit" src="./Images/Git_image.png" alt="">
-                            
-                        </button>
+            </section>
+
+            <section class="contact-section" id="contato">
+                <h2 class="section-title">Contatos</h2>
+                <div class="contact-links">
+                    <!-- GitHub -->
+                    <a class="contact-button" href="https://github.com/renan-lemes" target="_blank" rel="noopener noreferrer">
+                        <img class="contact-icon" src="./Images/Git_image.png" alt="Ícone GitHub">
                     </a>
-                    <a style="text-decoration: none;" href="https://www.instagram.com/renan_lemes_leepklan/">
-                        <button class="Insta" onclick="">
-                            <img class="ImgInsta" src="./Images/Icon_instagram.png" alt="">
-                            
-                        </button>
+                    <!-- Instagram -->
+                    <a class="contact-button" href="https://www.instagram.com/renan_lemes_leepklan/" target="_blank" rel="noopener noreferrer">
+                        <img class="contact-icon" src="./Images/Icon_instagram.png" alt="Ícone Instagram">
                     </a>
-                    <a style="text-decoration: none;" href="https://www.linkedin.com/in/renan-lemes-leepkaln-b469201bb/">
-                        <button  class="Linkedin" onclick="" href="">
-                            <img class="imgLink" src="./Images/Icone_linkdin.png" alt="">
-                        </button>
+                    <!-- LinkedIn -->
+                    <a class="contact-button" href="https://www.linkedin.com/in/renan-lemes-leepkaln-b469201bb/" target="_blank" rel="noopener noreferrer">
+                        <img class="contact-icon" src="./Images/Icone_linkdin.png" alt="Ícone LinkedIn">
                     </a>
                 </div>
-                    <footer class="cabeçario"></footer>
-                
-            </main>
-        </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; 2025 Renan Lemes Leepkaln. Todos os direitos reservados.</p>
+        </footer>
     </div>
     
-
 </body>
 
 </html>
