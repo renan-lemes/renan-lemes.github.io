@@ -23,6 +23,14 @@ body {
     overflow-x: hidden;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; evita barra de rolagem se o canvas extrapolar */
+}
+
 /* Estrutura Principal */
 .main-wrapper {
     max-width: 1200px;
@@ -95,6 +103,27 @@ header {
     color: #fff;
 }
 
+.div-img-back {
+    width: 100%;
+    max-width: 1200px; /* limite opcional, pode remover se quiser ocupar toda a tela */
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden; /* evita que a imagem ultrapasse */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+
+.back-img {
+    width: 100%;
+    height: auto; /* mantém proporção original */
+    object-fit: cover; /* cobre bem o espaço sem deformar */
+    display: block;
+    border-radius: 0; /* pode ajustar se quiser cantos arredondados */
+    opacity: 0.8;
+}
+
 .Projetos {
     color: #eff3cda9;
     border: 2px solid #eff3cda9;
@@ -114,9 +143,11 @@ header {
 }
 
 .img-cicle {
-    width: 16.3rem;
-    height: 15.8rem;
-    border-radius: 100%;
+    width: 40vw;
+    height: 40vw;
+    max-width: 16rem;
+    max-height: 16rem;
+    border-radius: 50%;
     overflow: hidden;
     margin-bottom: 1.5rem;
     background-color: rgba(59, 9, 139, 0.267);
@@ -431,25 +462,25 @@ h1 {
 }
 
 /* Estilos de Script (Baseado em scriptStyle.csv) */
-#stars{
-    position: absolute;
+#stars {
+    position: fixed; /* em vez de absolute, fixa na tela */
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0; /* Coloca o canvas atrás do conteúdo */
+    width: 100vw;   /* usa a largura da viewport */
+    height: 100vh;  /* usa a altura da viewport */
+    z-index: 0;
     opacity: 0.5;
+    pointer-events: none; /* permite clicar em elementos acima */
+}
+.script {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-.script{
-    width: 100%; /* Tornando responsivo */
-    height: 100vh; /* Tornando responsivo */
-    z-index: 1;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    opacity: 0.5;
-}
 
 /* =================================
    Media Queries para Responsividade
@@ -488,6 +519,7 @@ h1 {
     .hard-container {
         gap: 1rem;
         padding: 0.5rem;
+        background: rgba(182, 229, 250, 0.2)
     }
 
     .skill-item {
