@@ -255,7 +255,7 @@ h1 {
     position: relative;
     border-radius: 27px;
     border: 0;
-    background: #00051f65;
+    background: #000b3d80;
     overflow: hidden;
     transition: all 0.3s;
     text-decoration: none;
@@ -342,9 +342,31 @@ h1 {
     --color-end: #00c2f8;
 }
 
-@keyframes rotate {
+/* @keyframes rotate {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+} */
+
+.project-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 27px;
+    padding: 4px;
+    background: linear-gradient(450deg, var(--color-start), var(--color-end));
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 1;
+    transition: filter 0.3s ease, opacity 0.3s ease; /* transição suave */
+}
+
+/* quando o mouse passar por cima */
+.project-card:hover::before {
+    filter: brightness(2.5) saturate(4.4); /* deixa mais “viva” */
+    opacity: 1;
 }
 
 /* Contatos */
